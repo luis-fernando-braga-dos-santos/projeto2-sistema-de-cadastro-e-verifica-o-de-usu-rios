@@ -21,12 +21,12 @@ nome do usuario:${nome2}
 idade do usuario:${idade}
 senha do usuario:${senha2}
         
-
+//caso o usuario erre o nome e a senha
         `);
     }else{
         alert("nome ou senha incorretos tente novamente");
     }
-
+//caso a idade do usuario seja menor que 13 anos
 }else{
 
     alert(`   
@@ -37,5 +37,6 @@ senha de usuario:${senha}
          
 voce nao pode se cadastrar idade minima 13 anos!         
         ` );}
+
 
 
