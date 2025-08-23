@@ -29,5 +29,13 @@ senha do usuario:${senha2}
 
 }else{
 
-    alert("nao e possivel se cadastrar idade minima 13 anos");}
+    alert(`   
+==================seu cadastro==================
+nome de usuario:${nome} 
+idade de usuario:${idade}
+senha de usuario:${senha}
+         
+voce nao pode se cadastrar idade minima 13 anos!         
+        ` );}
+
 
